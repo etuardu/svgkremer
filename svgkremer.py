@@ -156,8 +156,8 @@ def diagnose(eqs, projection_f):
         eqs[lxx].interception
     )
     print("f = {}".format(projection_f))
-    print("{} = x * {} + {}".format(*args('lng')))
-    print("{} = f(x * {} + {})".format(*args('lat')))
+    print("x = {} * {} + {}".format(*args('lng')))
+    print("y = f({}) * {} + {}".format(*args('lat')))
 
 project = 'lambda lat: 180/math.pi * math.log(math.tan(math.pi/4 + lat*(math.pi/180)/2))'
 # Projection function as string
