@@ -1,5 +1,5 @@
 # svgkremer
-A simple tool to get geo-awareness when working with svg. See this demo for an example of use.
+A simple tool to reference an svg workspace using geographic coordinates. See [this demo](http://jsfiddle.net/mveoubas/) for an example of use.
 
 ## How it works
 `svgkremer` takes a map in kmz format and gives back two things:
@@ -39,3 +39,6 @@ $ python
 5. Draw a circle and set its `cx` and `cy` to those values:
 
 ![circle on Palermo](doc/circle.png)
+
+   The circle is put in place on Palermo. To do the positioning of the marker programmatically
+   using javascript, see [this demo](http://jsfiddle.net/mveoubas/).
